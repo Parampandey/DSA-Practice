@@ -1,1 +1,1 @@
-Array problems from LeetCode and NeetCode.
+Array and Hashing problems from LeetCode and NeetCode.
