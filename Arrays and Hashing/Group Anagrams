@@ -1,0 +1,12 @@
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        dict=defaultdict(list)# seee video of ravina on youtube py
+                            # we create dict ,use defaultdict to avoid key error,if key not present it automatically create empty list as key
+        for str in strs:
+            count=[0]*26
+            for char in str:
+                count[ord(char)-ord('a')] +=1
+            dict[tuple(count)].append(str)   #  the count array ex [1,1,0.......1] means 26 letter we store it as a key in dict as a tuple
+                                              # now ab iss array ke key p jo string ho usme y vli new vli string append ke do vrna new location pr daal do/
+                                              # yha pr agar uss dict ki key value pr kuch nhi hoga to empty list hogi see we use defalutdic above so appned in it as a value
+        return list(dict.values())
