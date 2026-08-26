@@ -5,5 +5,5 @@ class Solution:
           diff=target-n
           if diff in map:
             return [map[diff],i]
-          map[n]=i # if no not present in map add to it
+          map[n]= i # if no not present in map add to it
         return
