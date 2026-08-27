@@ -8,7 +8,7 @@ class Solution:
                 dict[num]=1
             dict[num]+=1
             #dict[num] = dict.get(num, 0) + 1 you can diectly use this also to avoid above if
-        #sorted(dict,key=dict.get, reverse=True) means #sorted give sort item in list key is tumhe kiss pr sorting krni h muje value pr krni h to me key=dict.get kia hu dict.get krne s value aa jaegi aur vo key ho jargi usi p sorting hogi reverse=true menas sort in decesending order
+        # sorted(dict,key=dict.get, reverse=True) means #sorted give sort item in list key is tumhe kiss pr sorting krni h muje value pr krni h to me key=dict.get kia hu dict.get krne s value aa jaegi aur vo key ho jargi usi p sorting hogi reverse=true menas sort in decesending order
         # last me [:k]meaning sort krne k baad jo list aaegi decending m to muje most frequent k element chai to uss list m s starting 0 s k-1 tk k element means only k element hi reutrun kro 
         topk=sorted(dict,key=dict.get, reverse=True)[:k]  # sort krrke y key return karega
         return topk
