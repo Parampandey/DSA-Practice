@@ -12,6 +12,6 @@ class Solution:
         for i in range(n-2,-1,-1):
             rightmax[i]=max(rightmax[i+1],height[i])
         waterstore=0
-        for i in range(n):
+        for i in range(n) :
             waterstore+=min(leftmax[i],rightmax[i])-height[i]
         return waterstore
