@@ -3,7 +3,7 @@ class Solution:
     def encode(self, strs: List[str]) -> str:
         string=""
         for s in strs:
-          string+=str(len(s))+'#'+s
+          string+=str(len(s))+'#'+ s
         return string
 
     def decode(self, s: str) -> List[str]:
