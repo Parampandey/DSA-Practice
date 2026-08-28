@@ -5,7 +5,7 @@ class Solution:
         maxwater = 0
 
         while l < r:
-            area = (r - l) * min(heights[l], heights[r])
+            area = (r - l) * min (heights[l], heights[r])
             maxwater = max(maxwater, area)
 
             if heights[l] < heights[r]:
