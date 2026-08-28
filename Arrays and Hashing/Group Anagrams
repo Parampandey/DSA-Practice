@@ -1,5 +1,5 @@
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]] :
         dict=defaultdict(list)# seee video of ravina on youtube py
                             # we create dict ,use defaultdict to avoid key error,if key not present it automatically create empty list as key
         for str in strs:
