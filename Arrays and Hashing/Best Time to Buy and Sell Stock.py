@@ -4,7 +4,7 @@ class Solution:
         right=1 # right pointer is to sell the stock so profit right-left
         maxprofit=0
         while right<len(prices):
-            if prices[left]>prices[right]:  
+            if prices[left]>prices[right] :  
                 left=right
             else:
                 profit=prices[right]-prices[left]
