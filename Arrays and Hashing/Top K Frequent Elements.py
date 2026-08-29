@@ -4,7 +4,7 @@ class Solution:
         #method one
         dict={} 
         for num in nums:
-            if num not in dict :
+            if num not in dict  :
                 dict[num]=1
             dict[num]+=1
             #dict[num] = dict.get(num, 0) + 1 you can diectly use this also to avoid above if
