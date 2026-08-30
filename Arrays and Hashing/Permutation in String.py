@@ -7,7 +7,7 @@ class Solution:
         if len(s1)>len(s2):
             return False        #if you don't write code will run it just for fast
         for i in range(len(s1)):
-            count1[ord(s1[i])-ord('a')]+= 1
+            count1[ord(s1[i])-ord('a')]+=  1
         left=0
         right=len(s1)
         
