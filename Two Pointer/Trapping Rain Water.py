@@ -1,5 +1,5 @@
 class Solution:
-    def trap(self, height: List[int]) -> int:
+    def trap(self, height: List[int]) -> int :
         n=len(height)
         leftmax=[0]*n
         rightmax=[0]*n
