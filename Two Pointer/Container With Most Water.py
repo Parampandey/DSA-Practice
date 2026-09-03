@@ -4,7 +4,7 @@ class Solution:
         r = len(heights) - 1
         maxwater = 0
 
-        while l < r:
+        while l < r :
             area = (r - l) * min(heights[l], heights[r])
             maxwater = max(maxwater, area)
 
