@@ -1,5 +1,5 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool :
+    def isPalindrome(self, s: str) -> bool  :
         st=s.lower()
         st=st.replace(" ","")
         result=""
