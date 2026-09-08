@@ -1,6 +1,6 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        #herer T(C)=O(nm) where n is length of the big/main string and m is       length  of the small/pattern string. you can also solve in T(C)=O(N)
+        #herer T(C)=O(nm) where n is length of the big/main string and m is length  of the small/pattern string. you can also solve in T(C)=O(N)
         #self
         count1=[0]*26 # for s1
         count2=[0]*26 #
