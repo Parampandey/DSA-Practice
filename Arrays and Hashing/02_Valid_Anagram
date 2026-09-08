@@ -4,7 +4,7 @@ class Solution:
       # now using hashmap /dictonary
 
        countS,countT={},{}
-       if len(s)!=len(t):
+       if len(s)!=len(t) :
          return False
        for ch in s: # here we add the element in dict or hashmap
         countS[ch]=1+countS.get(ch,0) # countS.get means return the value of ch if not found return zero ,and add this char feq 1 and if found add 1 to the prev freq
