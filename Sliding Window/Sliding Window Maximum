@@ -1,5 +1,5 @@
 class Solution:
-    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int] :
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         # this is my solution but TLE come so we going to see video
          # if k <= 0 or k > len(nums):
           #  return []
