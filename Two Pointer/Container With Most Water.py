@@ -8,7 +8,7 @@ class Solution:
             area = (r - l) * min(heights[l], heights[r])
             maxwater = max(maxwater, area)
 
-            if heights[l] < heights[r]:
+            if heights[l] < heights[r] :
                 l += 1
             else:
                 r -= 1
