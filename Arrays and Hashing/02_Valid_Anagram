@@ -1,6 +1,6 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-      #  return Counter(s)==Counter(t) first direct solution .Counter automatically count the no of chacter in a string and its repetion 
+      #  return Counter(s)==Counter(t) first direct solution .Counter automatically count the no of chacter in a string and its repetion  
       # now using hashmap /dictonary
 
        countS,countT={},{}
